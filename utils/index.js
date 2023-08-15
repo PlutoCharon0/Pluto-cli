@@ -1,6 +1,6 @@
 const axios = require("axios").default;
 const chalk = require("chalk");
-const templateRexg = /cli/g
+const templateRexg = /--template/g
 async function getGitReposList(username) {
     return new Promise(async (resolve, reject) => {
         try {
